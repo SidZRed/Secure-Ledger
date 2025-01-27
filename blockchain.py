@@ -142,7 +142,7 @@ class Blockchain(object):
         return proof
 
     @staticmethod
-    def valid_prrof(last_proof, proof):
+    def valid_proof(last_proof, proof):
         '''
         Validates the proof using the proof of work algorithm
         '''
